@@ -1,0 +1,45 @@
+.box{
+    border: 2px solid black;
+    background-image: linear-gradient(rgba(179,0,0,  0.3) ,rgba(191, 114, 115),rgba(199, 216, 99)
+), url(https://thumbs.dreamstime.com/b/spring-summer-landscape-blue-sky-clouds-river-boat-green-trees-narew-countryside-grass-poland-water-leaves-58070004.jpg);
+    width: 80%;
+    height: 700px;
+    background-size: 1130px;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+color: white;
+word-spacing: 20px;
+}
+
+/* media query styling */
+/* body{
+    background-color: deepskyblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ */
+
+
+
+
+@media only screen and (max-width:480px){
+body{
+    background-color: blueviolet;
+    
+}
+   img{
+        width: 300px;   
+    }
+}
+/* @media only screen and (max-width:768px){
+    body{
+        background-color: deeppink;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+ 
+} */
+
+/* @media only screen and (max-width:1024px){
+    body{
+        background-color: rgb(186, 38, 38);
+    }
+} */
